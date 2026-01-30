@@ -22,10 +22,8 @@ size_t calculate_aligned_size(size_t size) {
 }
 
 void* allocate_executable_memory(size_t size) {
-    // Calculate aligned size
     size_t aligned_size = calculate_aligned_size(size);
     
-    // Use mmap with manual flags
     // PROT_READ|PROT_WRITE = 0x3, MAP_PRIVATE|MAP_ANONYMOUS = 0x22
     void* ptr = mmap(NULL, aligned_size, PROT_READ | PROT_WRITE, 
                      MAP_PRIVATE | MAP_ANONYMOUS, -1, 0);
@@ -33,10 +31,8 @@ void* allocate_executable_memory(size_t size) {
 }
 
 int protect_memory(void* addr, size_t size, int prot) {
-    // Calculate aligned size
     size_t aligned_size = calculate_aligned_size(size);
     
-    // Use mprotect
     return mprotect(addr, aligned_size, prot);
 }
 
