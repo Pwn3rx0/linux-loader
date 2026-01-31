@@ -25,7 +25,6 @@ make all
 - **Modular Design** - Clean separation of decryption, execution, and utilities
 - **No Anti-VM/Debug** - Focused on core functionality without anti-analysis
 
-FOR EDUCATIONAL AND AUTHORIZED TESTING PURPOSES ONLY
 >[!CAUTION]
 >This tool is designed for EDUCATIONAL AND AUTHORIZED TESTING PURPOSES ONLY. I AM NOT RESPONSIBLE FOR YOUR ACTIONS. DON'T DO BAD STUFF.
 
