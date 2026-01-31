@@ -8,10 +8,7 @@ A lightweight, modular shellcode loader for Linux with triple XOR encryption and
 
 **[0/70 detections](https://www.virustotal.com/gui/file/9463d4bd781dcb2c9f464540432477e02f7ac22c8f6333aa6b2802df2fd071f4?nocache=1)** - Fully undetected by all major AV engines
 
-
-## 🚀 Quick Start
-
-### 1. Clone & Setup
+### 1. Clone & compile
 ```bash
 git clone https://github.com/yourusername/shellcode-loader.git
 cd shellcode-loader
