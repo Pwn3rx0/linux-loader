@@ -4,7 +4,7 @@ A lightweight, modular shellcode loader for Linux with triple XOR encryption and
 
 
 ## VirusTotal Results
-![Screenshot_2026-01-30_19-20-11](https://github.com/user-attachments/assets/d1c02030-2b40-4426-a9ad-bf9fe148c4cd)
+<img width="1365" height="698" alt="Screenshot from 2026-01-30 20-02-06" src="https://github.com/user-attachments/assets/8e66e2e6-4b9f-4053-ba6d-4608e0d412c4" />
 
 **[0/70 detections](https://www.virustotal.com/gui/file/9463d4bd781dcb2c9f464540432477e02f7ac22c8f6333aa6b2802df2fd071f4?nocache=1)** - Fully undetected by all major AV engines
 
